@@ -1,0 +1,110 @@
+@import "buttons.css";
+@import "render.css";
+
+
+@keyframes appear {
+    from { opacity: 0 }
+    to { opacity: 0.9 }
+}
+
+@keyframes appearNav {
+    from { opacity: 0.6 }
+    to { opacity: 0.9 }
+}
+
+.orangeFlashing {
+    animation: orangeFlash linear 0.7s infinite;
+}
+@keyframes orangeFlash {
+    0% { background-image: url('../img/orangeBtn.png') }
+    50% { background-image: url('../img/orangeBtnFlashing.png') }
+    100% { background-image: url('../img/orangeBtn.png') }
+}
+
+.stdFlashing {
+    animation: stdFlash linear 0.7s infinite;
+}
+@keyframes stdFlash {
+    0% { background-image: url('../img/stdBtn.png') }
+    50% { background-image: url('../img/stdBtnFlashing.png') }
+    100% { background-image: url('../img/stdBtn.png') }
+}
+
+.fxFlashing {
+    animation: fxFlash linear 0.7s infinite;
+}
+@keyframes fxFlash {
+    0% { background-image: url('../img/fxBtn.png') }
+    50% { background-image: url('../img/fxBtnFlashing.png') }
+    100% { background-image: url('../img/fxBtn.png') }
+}
+
+.orange:hover {
+    animation: orange 0.5s infinite;
+    border: none;
+    width: 53px;
+    height: 53px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+@keyframes orange {
+    0%  { background-image: url('../img/orangeBtn.png') }
+    50% { background-image: url('../img/orangeBtnFlashing.png') }
+    100%  { background-image: url('../img/orangeBtn.png') }
+}
+
+.std:hover {
+    animation: std 0.5s infinite;
+    border: none;
+    width: 53px;
+    height: 53px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+@keyframes std {
+    0%  { background-image: url('../img/stdBtn.png') }
+    50% { background-image: url('../img/stdBtnFlashing.png') }
+    100%  { background-image: url('../img/stdBtn.png') }
+}
+
+.fx:hover {
+    animation: fx 0.5s infinite;
+    border: none;
+    width: 53px;
+    height: 53px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+@keyframes fx {
+    0%  { background-image: url('../img/fxBtn.png') }
+    50% { background-image: url('../img/fxBtnFlashing.png') }
+    100%  { background-image: url('../img/fxBtn.png') }
+}
+
+.knobsFlashing {
+    animation: knob 0.5s infinite;
+    background-color: transparent;
+    border: none;
+    width: 57px;
+    height:64px;
+    border-radius: 5%;
+    background-position: center;
+}
+
+@keyframes knob {
+    0% { background-image: url('../img/knob.png') }
+    25% { background-image: url('../img/knobMiddle.png') }
+    50% { background-image: url('../img/knobActive.png') }
+    75% { background-image: url('../img/knobMiddle2.png') }
+    100% { background-image: url('../img/knob.png') }
+}
+
+.knobs:hover {
+    animation: knob 0.5s infinite;
+}

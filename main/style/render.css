@@ -1,0 +1,150 @@
+@import "buttons.css";
+@import "animations.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    outline: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+body {
+    margin: 0 auto;
+    animation: appear 0.5s;
+    background-color: grey;
+}
+
+.box {
+    width: 350px;
+    margin: 10px;
+    padding-right: 5px;
+    box-shadow: 500px black;
+}
+
+
+#preload {
+ display: none;
+}
+
+#info {
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    width: 350px;
+    height: 249px;
+    background-image: url("../img/screen.png");
+    background-repeat: no-repeat;
+    padding: 28px;
+}
+
+#wrapper {
+    width: 305px;
+    height: 105px;
+    background-color: #BDBDBF;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 78px;
+}
+
+p {
+    position: relative;
+    width: 305px;
+    height: 115px;
+    font-size: 12.5px;
+    padding: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+    overflow: auto;
+}
+
+.text {
+   animation: appear 1s; 
+}
+
+nav {
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    width: 305px;
+    height: 20px;
+    font-size: 9px;
+    white-space: nowrap;
+    padding: 5px;
+    overflow: hidden;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.textNav {
+    animation: appearNav 1s;
+}
+
+#sub {
+    position: relative;
+    animation: appearNav 1s; 
+    font-family: 9px;
+}
+
+.po {
+    height: 384px;
+}
+
+#controls {
+    display: grid;
+    width: 350px;
+    grid-template-rows: 0.5fr 2fr;
+    background-image: url("../img/controlsBackground.png");
+    background-repeat: no-repeat;
+}
+
+#section1 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+#nav1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 23px;
+    margin-top: 11px; 
+    grid-column-gap: 3px;
+}
+
+#knobs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2.5px; 
+    margin-left: 0px;
+}
+
+#section2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+#nav2 {
+    margin-top: 7px;
+    margin-left: 11px;
+    display: grid;
+    grid-template-rows: repeat(4, 0.2fr);
+    grid-row-gap: 19px;
+}
+
+#pads { 
+    margin-top: 6.6px;
+    display: grid;
+    grid-template-columns: repeat(4, 0.2fr);
+    grid-template-rows: repeat(4, 0.2fr);
+    margin-left: 22.7px;
+    grid-column-gap: 11px;
+    grid-row-gap: 19px;
+}

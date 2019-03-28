@@ -1,0 +1,76 @@
+.pads {
+    background-image : url('../img/stdBtn.png'); 
+    border : none;
+    width : 53px;
+    height :53px;
+    background-position : center;
+    border-radius : 50%;
+    color: #DBDBEA;
+    font-size: 10px;
+}
+
+.knobs {
+    background-image: url('../img/knob.png');
+    background-color: transparent;
+    border: none;
+    width: 57px;
+    height:64px;
+    border-radius: 5%;
+    background-position: center;
+}
+
+.knobOn {
+    background-image: url('../img/knobActive.png'); 
+}
+
+.orange {
+    background-image : url('../img/orangeBtn.png');
+    border: none;
+    width: 53px;
+    height: 53px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%; 
+}
+
+.orangeOn {
+    background-image : url('../img/orangeBtnFlashing.png'); 
+}
+
+.std {
+    background-image : url('../img/stdBtn.png'); 
+    border: none;
+    width: 53px;
+    height: 53px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%; 
+}
+
+.stdOn {
+    background-image : url('../img/stdBtnFlashing.png');   
+}
+
+.fx {
+    background-image : url('../img/fxBtn.png'); 
+    border: none;
+    width: 53px;
+    height: 53px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%; 
+}
+
+.fxOn {
+    background-image : url('../img/fxBtnFlashing.png'); 
+}
+
+
+
+#backInit, #i, #ii, #iii, #iv, #v, #foot {
+    border : none;
+    background-color : grey;
+    font-size : 9px;
+    overflow: hidden;
+}
+
