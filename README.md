@@ -1,5 +1,5 @@
 # PO-33
-Interactive web guide to learn how to use the PO33
+Interactive web guide to learn how to use the PO33 by TE
 
 ## Info
 
