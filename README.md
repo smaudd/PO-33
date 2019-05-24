@@ -1,12 +1,20 @@
 # PO-33
-Interactive web guide to learn how to use the PO33 by TE
 
-## Info
+[PO-33 Guide](https://po33guide.com) is an interactive open source guide for the pocket sampler PO-33 K.O (launched in 2018 by the Swedish company Teenage Engineering.)
 
-This guide was made with vanillaJS ES6.
+This guide is part of a proposal to encourage the digial music community and its enthusiasts.
+
+The interface of the guide takes the form of the PO-33 K.O and each button provides an explanation of its function within the device. Everything about this small but powerful sampler is explained in a simple way so even its newest users can start to create music as soon as possible.
+
+## Development Stack
+
+- JavaScript ES6
+- HTML5
+- CSS3
+
+It's implementig the CSS3 grid system on the layout.
 
 ## Setup
 
-You can run this website localy with any web server. Don't try to use just your explorer it will not work because it uses ES6 modules
-which aren't supported by Chrome and many web explorers.
+You can run this website on any web server. 
 
